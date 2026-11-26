@@ -1,4 +1,7 @@
 requests
 numpy
-Pillow
+pillow
 edge-tts
+rembg
+onnxruntime
+opencv-python-headless
