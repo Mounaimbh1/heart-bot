@@ -356,8 +356,8 @@ def make_video(idx, story, environment, out_path):
     return total_len
 
 
-def tg(method, **kw):  
-return requests.post(f"https://telegram.org{os.environ['TELEGRAM_BOT_TOKEN']}/{method}", timeout=300, **kw)
+def tg(method, **kw):
+    return requests.post(f"https://telegram.org{os.environ['TELEGRAM_BOT_TOKEN']}/{method}", timeout=300, **kw)
 
 
 def send_video(path, caption):
